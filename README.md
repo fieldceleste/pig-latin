@@ -15,9 +15,9 @@ _Current Version April, 1, 2020_
 
 |    Behaviors   |   Input      |    Output    |
 | :------------- | :----------: | -----------: |
-|The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels| 3 | [3]
-|The program adds "way" to single-letter words beginning with a vowel.| p | [Pway]|
-|The program adds "way" to single-letter words beginning with a vowel, even if they're capitalized.| P | [Pway]|
+|The translator does nothing to non-alphabetical characters, since they do not contain consonants or vowels.| 3 | [3]
+|The translator adds "way" to single-letter words beginning with a vowel.| p | [Pway]|
+|The translatoradds "way" to single-letter words beginning with a vowel, even if they're capitalized.| P | [Pway]|
 |For words beginning with a vowel add way to the end, even if it capitalized. | eat/Eat | [eatway]|
 |For words beginning with y treat y as a consonants. | yikes | [yikesyay]
 |For words the begin with one consonant, move the consonant to the end and add "ay".| dog | [dogay] |
